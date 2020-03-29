@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://kylenrich24:clarence000.@devconnector-1fmk1.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://kylenrich24:clarence000.@devconnector-1fmk1.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "clarence000."
 }
