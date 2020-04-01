@@ -55,12 +55,12 @@ router.post(
     // Pulling all the info from req.body
     const {
       company,
-      website,
       location,
+      website,
       bio,
+      skills,
       status,
       githubusername,
-      skills,
       youtube,
       facebook,
       twitter,
@@ -78,7 +78,7 @@ router.post(
     if (status) profileFields.status = status;
     if (githubusername) profileFields.githubusername = githubusername;
     if (skills) {
-      profileFields.skills = skills.split(",").map(skill => skill.trim());
+      profileFields.skills = skills.split(",").map(skill => " " + skill.trim());
     }
     // Build social
     profileFields.social = {};
