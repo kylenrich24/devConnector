@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://kylenrich24:clarence000.@devconnector-1fmk1.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "clarence000.",
+  "githubClientId": "ae751cb6639b9286108f",
+  "githubSecret": "218ef6583b8c9b59b2c396fd850571fc4a16e02b"
+}
